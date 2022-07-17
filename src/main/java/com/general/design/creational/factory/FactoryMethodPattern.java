@@ -1,6 +1,7 @@
-package com.general.design.creational.singleton;
+package com.general.design.creational.factory;
 
-/**
+/**			FactoryMethodPattern
+ * 
  *	It says- Just define an Interface or Abstract Class for creating an Object
  *	But let the subclasses decide which class to instantiate
  *
@@ -8,6 +9,7 @@ package com.general.design.creational.singleton;
  *	
  *	It promotes the loose-coupling
  */
+
 public class FactoryMethodPattern {
 
 }
