@@ -1,4 +1,4 @@
-package com.general.design.creational;
+package com.general.design.creational.singleton;
 
 /**
  *	Singleton pattern is mostly used in Multi-Threaded and database applications

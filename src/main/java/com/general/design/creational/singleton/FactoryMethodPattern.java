@@ -1,4 +1,4 @@
-package com.general.design.creational;
+package com.general.design.creational.singleton;
 
 /**
  *	It says- Just define an Interface or Abstract Class for creating an Object
