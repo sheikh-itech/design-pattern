@@ -16,8 +16,8 @@ They provide transparency to the design of an application
 
 They are well-proved and testified solutions since they have been built upon the knowledge and experience of expert software developers
 
-Design Patters Types
-====================
+Design Pattenrs Types
+=====================
 
 1. Creational
 2. Structural
