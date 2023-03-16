@@ -7,11 +7,13 @@ package com.general.design.creational.singleton;
  *	2. Caching
  *	3. Thread pools
  *	4. Configuration settings
+ *
+ *	Volatile -> to prevent from concurrent modification
  */
 
 public final class SingletonLazy {
 
-	private static SingletonLazy instance;
+	private static volatile SingletonLazy instance;
 	
 	private SingletonLazy() {
 		

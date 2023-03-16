@@ -4,14 +4,16 @@ import java.io.Serializable;
 
 /**
  *	To get State Back while De-serialization
- *	Need to override readResolve() method 
- *
+ *	Need to override readResolve() method
+ *	
+ *	Volatile -> to prevent from concurrent modification
  */
+
 public class SingletonSerializable implements Serializable {
 
 	private static final long serialVersionUID = 14325L;
 	
-	private static SingletonSerializable instance;
+	private static volatile SingletonSerializable instance;
 	
 	private SingletonSerializable() {
 		
